@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title></title>
+        <meta name="title" content="Orinoco">
+        <meta name="description" content="">
+
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+      
+    </head>
+
+    <body>
+        
+
+        <nav style="position: relative;" class="navbar navbar-expand-lg justify-content-between">
+            <a class="navbar-brand logo_link" href="index.html">
+                <img src="logoOrinoco.png" id="logo">
+            </a>
+
+            <a class="basketPage" href="panier.html">
+                <div class="panier">Panier</div>
+            </a>
+            <div id="greenText">Quantité modifiée !</div>
+        </nav>
+
+        <div id="greenText">Quantité modifiée !</div>
+        <div id="redText">Item supprimé !</div>
+        <div id="basket" class="d-flex flex-wrap justify-content-around"></div>
+        <div id="payment" class="card border-light text-center w-75 m-auto">
+            <h1 class="card-title">Paiement</h1>
+            <h2 id="total"></h2>
+            <p>Veuillez remplir les champs suivants pour pouvoir procéder au paiement :</p>
+            <form class="card-body">
+                <div class="form-group">
+                    <label for="firstName">Prénom</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Prénom" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Nom</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Adresse</label>
+                    <input type="text" class="form-control" id="address" placeholder="Adresse" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">Ville</label>
+                    <input type="text" class="form-control" id="city" placeholder="Ville" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Adresse mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Adresse mail" required>
+                </div>
+            </form>
+            <a id="submitPayment" class="btn btn-success card-footer" role="button" type="submit">Envoyer</a>
+        </div>
+        
+        <footer>
+            <div class="footer d-flex justify-content-around">
+                <div class="footer1">
+                    <p class="text_footer">A propos de Orinoco</p>
+                    <p class="text_footer">Contact</p>
+                    <p class="text_footer">Mentions légales</p>
+                </div>
+
+                <div class="footer2">
+                    <p class="text_footer">Orinoco. Tous droits réservés</p>
+                    <!-- Logo FB, Twitter, Pinterest... -->
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="basket.js"></script> 
+
+    </body>
+</html>

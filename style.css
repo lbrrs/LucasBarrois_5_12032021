@@ -1,0 +1,179 @@
+#logo {
+    width: 30%;
+}
+
+.logo_link {
+    display: initial;
+}
+
+.panier {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.card {
+    width: 25%;
+    margin: 30px;
+}
+
+.furnitures {
+    height: 45%;
+}
+/*.basket_card {
+    width: 50%;
+}*/
+
+.box_shadow:hover {
+    box-shadow: 5px 5px 20px 2px grey;
+}
+
+.card-img-top {
+    height: 325px;
+}
+
+h5 {
+    text-align: right;
+}
+
+p {
+    text-align: center;
+}
+
+.navbar, .card, footer {
+    background-color: #f3eaf1;
+}
+
+.text_footer {
+    text-align: unset;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#name {
+    text-align: center;
+}
+
+#image {
+    width: 90%;
+
+}
+
+.produitBox {
+    margin-top: 80px;
+    padding-bottom: 30px;
+    border: 1px solid #f3eaf1;
+    border-radius: 20px;
+    background-color: #f3eaf1;
+    margin-bottom: 80px;
+}
+
+.box2 {
+    margin-top: 120px;
+}
+
+#price {
+    text-align: right;
+}
+
+/*.form-control {
+    margin-left: 1rem;
+    width: 25%;
+}*/
+
+footer {
+    padding-top: 20px;
+}
+
+#payment {
+    margin-bottom: 50px;
+}
+
+#greenText {
+    position: absolute;
+    z-index: 99;
+    background-color:#3D8E3D;
+    display: none;
+    left: 42.5%;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#redText {
+    position: absolute;
+    z-index: 99;
+    background-color: #FF1E1E;
+    display: none;
+    left: 42.5%;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#confirmText {
+    position: absolute;
+    z-index: 99;
+    background-color: #3D8E3D;
+    display: none;
+    left: 42.5%;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 850px)
+{
+    .navbar {
+        flex-wrap: unset;
+    }
+
+}
+
+
+@media screen and (max-width: 770px) {
+    .container {
+        display: initial;
+    }
+    .d-flex {
+        display: initial;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .furnitures {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .navbar {
+        flex-wrap: unset;
+    }
+
+}
+
+@media screen and (max-width: 500px)
+{
+    .basket_card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .card {
+        width: auto;
+    }
+    .form-control {
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .box2 {
+        margin-top: auto;
+    }
+
+    #basket {
+        display: initial !important;
+    }
+}
